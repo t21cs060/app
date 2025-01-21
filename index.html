@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTMLの基本的な書き方</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- 外部CSSファイルへのリンク -->
+  </head>
+  <body>
+    <header>
+      <h1>こんにちは、世界！</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">このサイトについて</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>このサイトについて</h2>
+        <p>これはHTMLの基本的な書き方の例です。</p>
+      </section>
+      <section id="contact">
+        <h2>お問い合わせ</h2>
+        <form action="/submit" method="post">
+          <label for="name">名前:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">メールアドレス:</label>
+          <input type="email" id="email" name="email" required />
+          <input type="submit" value="送信" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p><small>© 2024 HTML学習サイト</small></p>
+    </footer>
+  </body>
+</html>
